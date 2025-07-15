@@ -86,7 +86,7 @@ const App = () => {
   useEffect(() => {
     if (!window.google) {
       const script = document.createElement("script");
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyA3PyHPTNxzbDgu9mwPkF7smCSd9p-EL6U&libraries=places`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=&libraries=places`;
       script.defer = true;
       script.async = true;
       script.onload = initMap;

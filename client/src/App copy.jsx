@@ -75,7 +75,7 @@ const App = () => {
     if (!window.google) {
       const script = document.createElement("script");
       // Ensure 'libraries=places' and 'routes' are included for autocomplete and directions functionality
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyA3PyHPTNxzbDgu9mwPkF7smCSd9p-EL6U&libraries=places,routes`; // Replace with your actual API key
+      script.src = `https://maps.googleapis.com/maps/api/js?key=&libraries=places,routes`; // Replace with your actual API key
       script.async = true;
       script.defer = true;
       script.onload = () => {
